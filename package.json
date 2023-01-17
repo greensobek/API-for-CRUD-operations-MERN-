@@ -1,0 +1,21 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "CRUD api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node back-end/server.js",
+    "server": "nodemon back-end/server.js"
+  },
+  "author": "pavara helamina",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
